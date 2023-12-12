@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Carreira Desenvolvedor</title>
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+      
+      <link rel="stylesheet" href="main.css">
+   </head>
+   <body>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+         <a class="navbar-brand" href="#">L.M</a>
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+         </button>
+         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav list-group role="tablist">
+               <a class="nav-item nav-link active"data-toggle="list" href="#list-home" role="tab" aria-controls="home">Sobre Mim <span class="sr-only">(current)</span></a>
+               <a class="nav-item nav-link" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">Experiência</a>
+               <a class="nav-item nav-link" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages">Contato</a>
+            </div>
+         </div>
+      </nav>
+      <div class="container-fluid">
+         <div class="row">
+            <div class="col-12">
+               <div class="list-group sidebar" id="list-tab" role="tablist">
+                  <div class="list-group-item logo">
+                     <h1>L.M</h1>
+                  </div>
+                  <a class="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">
+                     <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" class="bi bi-person-bounding-box " viewBox="0 0 16 16">
+                        <path d="M1.5 1a.5.5 0 0 0-.5.5v3a.5.5 0 0 1-1 0v-3A1.5 1.5 0 0 1 1.5 0h3a.5.5 0 0 1 0 1zM11 .5a.5.5 0 0 1 .5-.5h3A1.5 1.5 0 0 1 16 1.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 1-.5-.5M.5 11a.5.5 0 0 1 .5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 1 0 1h-3A1.5 1.5 0 0 1 0 14.5v-3a.5.5 0 0 1 .5-.5m15 0a.5.5 0 0 1 .5.5v3a1.5 1.5 0 0 1-1.5 1.5h-3a.5.5 0 0 1 0-1h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 1 .5-.5" />
+                        <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm8-9a3 3 0 1 1-6 0 3 3 0 0 1 6 0" />
+                     </svg>
+                     <br />
+                     <span>
+                     Sobre mim
+                     </span>
+                  </a>
+                  <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">
+                     <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" class="bi bi-book" viewBox="0 0 16 16">
+                        <path d="M1 2.828c.885-.37 2.154-.769 3.388-.893 1.33-.134 2.458.063 3.112.752v9.746c-.935-.53-2.12-.603-3.213-.493-1.18.12-2.37.461-3.287.811V2.828zm7.5-.141c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492V2.687zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783" />
+                     </svg>
+                     <br />
+                     <span>Experiencias</span>
+                  </a>
+                  <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages">
+                     <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" class="bi bi-envelope-at" viewBox="0 0 16 16">
+                        <path d="M2 2a2 2 0 0 0-2 2v8.01A2 2 0 0 0 2 14h5.5a.5.5 0 0 0 0-1H2a1 1 0 0 1-.966-.741l5.64-3.471L8 9.583l7-4.2V8.5a.5.5 0 0 0 1 0V4a2 2 0 0 0-2-2zm3.708 6.208L1 11.105V5.383zM1 4.217V4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v.217l-7 4.2z" />
+                        <path d="M14.247 14.269c1.01 0 1.587-.857 1.587-2.025v-.21C15.834 10.43 14.64 9 12.52 9h-.035C10.42 9 9 10.36 9 12.432v.214C9 14.82 10.438 16 12.358 16h.044c.594 0 1.018-.074 1.237-.175v-.73c-.245.11-.673.18-1.18.18h-.044c-1.334 0-2.571-.788-2.571-2.655v-.157c0-1.657 1.058-2.724 2.64-2.724h.04c1.535 0 2.484 1.05 2.484 2.326v.118c0 .975-.324 1.39-.639 1.39-.232 0-.41-.148-.41-.42v-2.19h-.906v.569h-.03c-.084-.298-.368-.63-.954-.63-.778 0-1.259.555-1.259 1.4v.528c0 .892.49 1.434 1.26 1.434.471 0 .896-.227 1.014-.643h.043c.118.42.617.648 1.12.648Zm-2.453-1.588v-.227c0-.546.227-.791.573-.791.297 0 .572.192.572.708v.367c0 .573-.253.744-.564.744-.354 0-.581-.215-.581-.8Z" />
+                     </svg>
+                     <br /> <span>Contato</span>
+                  </a>
+               </div>
+               <div class="tab-content content-site" id="nav-tabContent">
+                  <div class="row tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
+                     <div class=" justify-content-md-center">
+                        <h1 class="title-with-border">Sobre Mim</h1>
+                     </div>
+                     <div class=" justify-content-md-center padding-element">
+                        <div class="jumbotron">
+                           <div class="media">
+                              <img class="img" src="foto-curriculo.jpg" class="mr-3" alt="..." />
+                              <div class="media-body">
+                                 <h2 class="mt-0">Lucas Madureira</h2>
+                                 <h6 class="mt-0 my-location">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
+                                       <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10"/>
+                                       <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
+                                    </svg>
+                                    Contagem, Minas Gerais
+                                 </h6>
+                                 <p>Olá,</p>
+                                 <p>Meu nome é Lucas Madureira tenho 28 anos e atualmente busco ativamente uma oportunidade na área de Análise e Desenvolvimento de Sistemas, realizando uma transição de carreira da estética para a tecnologia. </p>
+                                 <p>Possuo conhecimentos em PHP, Javascript, HTML e CSS, aliados a habilidades como organização, atenção aos detalhes, análise e resolução de problemas.</p>
+                                 <p>Destaco minha capacidade de aprendizado rápido e adaptação a novas tecnologias e sistemas como atributos que me impulsionarão a crescer profissionalmente na área de TI.</p>
+                                 <p>Estou entusiasmado em contribuir e desenvolver minhas habilidades nesse ambiente dinâmico e desafiador.</p>
+                              </div>
+                           </div>
+                           <div class="row" style="margin-top: 40px;">
+                              <div class="col-lg-4">
+                                 <h5 class="sub-title-about-me">Desenvolvedor Web</h5>
+                              </div>
+                              <div class="col-lg-4">
+                                 <h5 class="sub-title-about-me">Disponivel para contratação</h5>
+                              </div>
+                              <div class="col-lg-4">
+                                 <a href="https://drive.google.com/file/d/1-1RjuJavAMYkCWQfoZuRh1e00VZ_24YZ/view?usp=drive_link'''" target="_blank">
+                                 <button type="button" class="btn btn-dark btn-lg col-md-12 btn-download">Download  Curriculo</button>
+                                 </a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class=" justify-content-md-center">
+                        <h1 class="title-with-border">Serviços</h1>
+                     </div>
+                     <div class=" justify-content-md-center padding-element">
+                        <div class="row">
+                           <div class="col-lg-4">
+                              <div class="card service">
+                                 <div class="card-body">
+                                    <div class="service-icon">
+                                       <svg class="bi bi-display" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                          <path d="M5.75 13.5c.167-.333.25-.833.25-1.5h4c0 .667.083 1.167.25 1.5H11a.5.5 0 010 1H5a.5.5 0 010-1h.75z"/>
+                                          <path fill-rule="evenodd" d="M13.991 3H2c-.325 0-.502.078-.602.145a.758.758 0 00-.254.302A1.46 1.46 0 001 4.01V10c0 .325.078.502.145.602.07.105.17.188.302.254a1.464 1.464 0 00.538.143L2.01 11H14c.325 0 .502-.078.602-.145a.758.758 0 00.254-.302 1.464 1.464 0 00.143-.538L15 9.99V4c0-.325-.078-.502-.145-.602a.757.757 0 00-.302-.254A1.46 1.46 0 0013.99 3zM14 2H2C0 2 0 4 0 4v6c0 2 2 2 2 2h12c2 0 2-2 2-2V4c0-2-2-2-2-2z" clip-rule="evenodd"/>
+                                       </svg>
+                                    </div>
+                                    <h5 class="card-title">Front End Developer</h5>
+                                    <p class="card-text">
+                                       HTML, CSS e JAVASCRIPT
+                                    </p>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-lg-4">
+                              <div class="card service">
+                                 <div class="card-body">
+                                    <div class="service-icon">
+                                       <svg class="bi bi-display" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                          <path d="M5.75 13.5c.167-.333.25-.833.25-1.5h4c0 .667.083 1.167.25 1.5H11a.5.5 0 010 1H5a.5.5 0 010-1h.75z"/>
+                                          <path fill-rule="evenodd" d="M13.991 3H2c-.325 0-.502.078-.602.145a.758.758 0 00-.254.302A1.46 1.46 0 001 4.01V10c0 .325.078.502.145.602.07.105.17.188.302.254a1.464 1.464 0 00.538.143L2.01 11H14c.325 0 .502-.078.602-.145a.758.758 0 00.254-.302 1.464 1.464 0 00.143-.538L15 9.99V4c0-.325-.078-.502-.145-.602a.757.757 0 00-.302-.254A1.46 1.46 0 0013.99 3zM14 2H2C0 2 0 4 0 4v6c0 2 2 2 2 2h12c2 0 2-2 2-2V4c0-2-2-2-2-2z" clip-rule="evenodd"/>
+                                       </svg>
+                                    </div>
+                                    <h5 class="card-title">Front End Developer</h5>
+                                    <p class="card-text">
+                                       HTML, CSS e JAVASCRIPT
+                                    </p>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-lg-4">
+                              <div class="card service">
+                                 <div class="card-body">
+                                    <div class="service-icon">
+                                       <svg class="bi bi-display" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                          <path d="M5.75 13.5c.167-.333.25-.833.25-1.5h4c0 .667.083 1.167.25 1.5H11a.5.5 0 010 1H5a.5.5 0 010-1h.75z"/>
+                                          <path fill-rule="evenodd" d="M13.991 3H2c-.325 0-.502.078-.602.145a.758.758 0 00-.254.302A1.46 1.46 0 001 4.01V10c0 .325.078.502.145.602.07.105.17.188.302.254a1.464 1.464 0 00.538.143L2.01 11H14c.325 0 .502-.078.602-.145a.758.758 0 00.254-.302 1.464 1.464 0 00.143-.538L15 9.99V4c0-.325-.078-.502-.145-.602a.757.757 0 00-.302-.254A1.46 1.46 0 0013.99 3zM14 2H2C0 2 0 4 0 4v6c0 2 2 2 2 2h12c2 0 2-2 2-2V4c0-2-2-2-2-2z" clip-rule="evenodd"/>
+                                       </svg>
+                                    </div>
+                                    <h5 class="card-title">Front End Developer</h5>
+                                    <p class="card-text">
+                                       HTML, CSS e JAVASCRIPT
+                                    </p>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="row tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">
+                     <div class=" justify-content-md-center">
+                        <h1 class="title-with-border">Resumo Profissional</h1>
+                     </div>
+                     <div class="row justify-content-md-center padding-element">
+                        <div class="row col-md-10 ">
+                           <div class="col-lg-6">
+                              <h3 class="title-with-border">Experiencias</h3>
+                              <ul class="timeline">
+                                 <li>
+                                    <h4>Autônomo</h4>
+                                    <h5>Barbeiro</h5>
+                                    <h6>Ago de 2019 - o momento · 4 anos 5 meses</h6>
+                                    <p>Responsável pela gestão de negócios,
+                                       atendimento ao cliente, administração financeira e gerenciamento de equipe
+                                    </p>
+                                 </li>
+                                 <li>
+                                    <h4>Polo Wear</h4>
+                                    <h5>Subgerente</h5>
+                                    <h6>Out de 2017 - mai de 2019 · 1 ano 8 meses</h6>
+                                    <p>Supervisão das atividades da equipe de vendas,
+                                       gerenciamento de estoque, administração de caixa, treinamento e desenvolvimento de
+                                       pessoal.Supervisão das atividades da equipe de vendas, gerenciamento de estoque, administração de caixa, treinamento e desenvolvimento de pessoal.
+                                    </p>
+                                    <p>Competências: Trabalho em equipe · Suporte ao cliente · Atendimento ao cliente</p>
+                                 </li>
+                                 <li>
+                                    <h4>Polo Wear</h4>
+                                    <h5>Vendedor</h5>
+                                    <h6>Nov de 2016 - out 2017 · 1 ano</h6>
+                                    <p>Atendimento ao cliente, identificação de suas
+                                       necessidades e orientação na escolha dos produtos.
+                                    </p>
+                                    <p>Competências: Trabalho em equipe · Suporte ao cliente · Atendimento ao cliente</p>
+                                 </li>
+                                 <li>
+                                    <h4>São Geraldo Diesel LTDA</h4>
+                                    <h5>Auxiliar de escritório</h5>
+                                    <h6>Jun de 2014 - out de 2016 · 2 anos 5 meses</h6>
+                                    <p>Suporte administrativo, atendimento ao cliente, controle financeiro e fluxo de veículos.</p>
+                                    <p>Competências: Redação · Trabalho de escritório
+                                 </li>
+                              </ul>
+                           </div>
+                           <div class="col-lg-6">
+                              <h3 class="title-with-border">Cursos</h3>
+                              <ul class="timeline">
+                                 <li>
+                                    <h4><a target="_blank" href="https://www.una.br/">Centro universitário una</a></h4>
+                                    <h5>Análise e Desenvolvimento de Sistemas</h5>
+                                    <h6>Fev de 2023 - jun de 2026 </h6>
+                                    <p>Graduando em Análise e Desenvolvimento de Sistemas pela Faculdade Una, venho adquirindo conhecimentos sólidos em programação, design de sistemas e implementação de soluções tecnológicas inovadoras. Minha formação abrange as disciplinas como programação avançada, banco de dados, análise de sistemas, e engenharia de software. Destaco habilidades em desenvolvimento de software, resolução de problemas e trabalho colaborativo em equipe.</p>
+                                    <p>Ao longo do curso, participo ativamente de projetos práticos que me proporcionaram experiência na aplicação de metodologias ágeis, resultando em soluções eficazes e alinhadas às demandas do mercado. Além disso, estou desenvolvendo competências em segurança da informação e compreensão abrangente de tecnologias emergentes.</p>
+                                    <p>Com uma sólida base técnica e prática, estou preparado para enfrentar desafios no desenvolvimento de software, contribuindo para o avanço tecnológico e a eficiência de sistemas de informação. </p>
+                                 </li>
+                                 <li>
+                                    <h4><a target="_blank" href="https://hermes.digitalinnovation.one/certificates/4090637E.pdf?_gl=1*1xeuhb*_ga*MTgzNTgwODU0My4xNzAwNDg5ODY5*_ga_7GXMH3CQ72*MTcwMDUxNDQ1Ny4zLjEuMTcwMDUxNTY0MC41OS4wLjA.">Dio</a></h4>
+                                    <h5>Versionamento de Código com Git e GitHub</h5>
+                                    <p>Concluí com sucesso o curso de Versionamento de Código, ministrado pela Digital Innovation One, onde adquiri habilidades fundamentais em Git e GitHub. Aprendi práticas essenciais para o controle de versões, colaboração eficiente em projetos e gerenciamento de código-fonte.</p>
+                                    <p> Compreendi conceitos-chave como branches, merges e pull requests, aprimorando minha capacidade de trabalhar de forma colaborativa em ambientes de desenvolvimento.</p>
+                                    <p>Este curso consolidou minha compreensão do ciclo de vida do desenvolvimento de software, contribuindo para uma gestão mais eficaz de projetos e aprimorando minhas habilidades técnicas.</p>
+                                 </li>
+                                 <li>
+                                    <h4><a target="_blank" href=https://drive.google.com/file/d/1pfu0WbqyrY5eieekKNAc6Pw0AfozKhxj/view?usp=drive_link">Fundação Bradesco</a></h4>
+                                    <h5>LINGUAGEM DE PROGRAMAÇÃO PYTHON - BÁSICO,</h5>
+                                    <p>O curso "Python - Básico" da Fundação Bradesco oferece uma introdução prática à linguagem de programação Python.</p> 
+                                    <p>Cobrindo conceitos fundamentais, estruturas de controle, dados, funções e tratamento de exceções, o curso proporciona uma base sólida para iniciantes.</p> <p>Com um enfoque prático, os participantes aplicam o conhecimento em um projeto simples. A conclusão do curso é reconhecida com uma certificação da Fundação Bradesco. Indicado para quem busca familiaridade rápida e eficaz com Python.</p>
+                                 </li>
+                              </ul>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="justify-content-md-center">
+                        <h1 class="title-with-border">Skills</h1>
+                     </div>
+                     <div class="row justify-content-md-center padding-element">
+                        <div class="col-md-10 jumbotron skills">                         
+                           <span>
+                              HTML 
+                              <div class="progress">
+                                 <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">50%</div>
+                              </div>
+                           </span>
+                           <span>
+                              CSS 
+                              <div class="progress">
+                                 <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">50%</div>
+                              </div>
+                           </span>
+                           <span>
+                              Javascript 
+                              <div class="progress">
+                                 <div class="progress-bar" role="progressbar" style="width: 45%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">45%</div>
+                              </div>
+                           </span>
+                           <span>
+                              PHP 
+                              <div class="progress">
+                                 <div class="progress-bar" role="progressbar" style="width: 35%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">35%</div>
+                              </div>
+                           </span>
+                           <span>
+                              Python
+                              <div class="progress">
+                                 <div class="progress-bar" role="progressbar" style="width: 30%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">30%</div>
+                              </div>
+                           </span>
+                        </div>
+                     </div>
+                  </div>
+                  <div style="height: 100vh;" class="row tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">
+                     <div class=" justify-content-md-center">
+                        <h1 class="title-with-border">Contato</h1>
+                     </div>
+                     <div class="padding-element justify-content-md-center">
+                        <div class=" row jumbotron" style="text-align: center;">
+                           <div class="col-md-4">
+                              <span>Email</span>
+                              <h6>lucasmadudeveloper@gmail.com</h6>
+                           </div>
+                           <div class="col-md-4">
+                              <span>Telefone:</span>
+                              <h6>+55(31) 9 99288-0137</h6>
+                           </div>
+                           <div class="col-md-4 linkedin ">
+                              <span>Linkedin:</span>
+                              <h6><a target="_blank" href="https://www.linkedin.com/in/lucas-madureira-753a1a254/">Lucas Madureira</a></h6>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </body>
+   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</html>
