@@ -113,6 +113,11 @@ p {
     margin-top: 12px;
 }
 
+.display{
+    margin-top: 20px;
+}
+
+
 .card.service {
     background: #000000;
     text-align: center;
@@ -123,17 +128,19 @@ p {
     
 }
 
+
+
+
 .card .service-icon {
     font-size: 50px;
     background: #0e1010;
-    /* width: fit-content; */
     border-radius: 100%;
     width: 80px;
     height: 80px;
-    margin-left: 33%;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin: 50px auto; /* Definindo margin-top e margin-bottom como 50px e margin-left e margin-right como auto */
+    display: block; /* Garante que o elemento seja exibido como bloco para centralizar automaticamente */
 }
+
 
 .card:hover,
 .card:hover .service-icon {
