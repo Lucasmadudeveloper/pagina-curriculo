@@ -144,7 +144,7 @@ p {
 
 .card:hover,
 .card:hover .service-icon {
-    border: 1px solid #25ca7f;
+    border: 1px solid #1bd481;
     transition: all 0.5s ease-in-out;
 }
 
@@ -177,7 +177,7 @@ p {
 /* Timeline Style INIT */
 
 ul.timeline {
-    background-color: #000000;
+    background-color: #030303;
     list-style-type: none;
     position: relative;
     padding-top: 30px;
