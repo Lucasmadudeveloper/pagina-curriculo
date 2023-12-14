@@ -233,6 +233,11 @@ ul.timeline a {
     display: none;
 }
 
+.jumbotron .col-md-4 {
+    margin: 15px; /* Remove o espaçamento externo */
+}
+
+
 @media(max-width: 600px) {
     #list-tab{
      display: none;
